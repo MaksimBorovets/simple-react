@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.add-todo-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-item-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.delete-btn {
+  margin-left: 10px;
+  padding: 4px 8px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-box {
+  margin-right: 10px;
+}
+
+.save-button {
+  
+}
